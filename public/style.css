@@ -109,11 +109,19 @@ body {
 
   .sidebar .contentSidebar {
     margin-top: 23px;
+    margin-left: 10px;
   }
 
   .contentSidebar span {
     color: #b71c1c;
     font-weight: bold;
     font-size: 21px;
+  }
+
+  ul li.firstChild:first-child {
+    color: green;
+    list-style: none;
+    margin-bottom: 18px;
+    margin-left: -21px;
   }
 }
